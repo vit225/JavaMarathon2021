@@ -1,4 +1,4 @@
-package day19.task3;
+package main.java.day19.task3;
 
 import javafx.application.Application;
 import javafx.scene.Group;
@@ -8,6 +8,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
+import java.awt.*;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Arrays;
