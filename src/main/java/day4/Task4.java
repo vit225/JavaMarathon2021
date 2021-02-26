@@ -9,7 +9,7 @@ public class Task4 {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = (int) (Math.random() * 10000);
         }
-        for (int i = 0; i < 98; i++) {
+        for (int i = 0; i < numbers.length - 2; i++) {
             sum = 0;
             for (int j = i; j < i + 3; j++) {
                 sum += numbers[j];
