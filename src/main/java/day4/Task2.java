@@ -6,11 +6,11 @@ public class Task2 {
     public static void main(String[] args) {
         int[] numbers = new int[100];
         Random random = new Random();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < numbers.length; i++) {
             numbers[i] = random.nextInt(10000);
         }
-        int max = 0;
-        int min = 0;
+        int max = numbers[0];
+        int min = numbers[0];
         int endZero = 0;
         int sumEndZero = 0;
         for (int number : numbers) {
