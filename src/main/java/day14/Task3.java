@@ -13,6 +13,7 @@ public class Task3 {
         System.out.println(parseFileToObjList(file));
     }
 
+
     public static List<Person> parseFileToObjList(File file) {
         List<Person> people = new ArrayList<>();
         try {
@@ -25,6 +26,7 @@ public class Task3 {
                 }
                 Person person = new Person(human[0], Integer.parseInt(human[1]));
                 people.add(person);
+                scanner.close();
             }
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
