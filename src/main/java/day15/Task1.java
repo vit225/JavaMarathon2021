@@ -16,11 +16,7 @@ public class Task1 {
                 String line = scanner.nextLine();
                 String[] shoes = line.split(";");
                 if (Integer.parseInt(shoes[2]) == 0) {
-                    pw.print(shoes[0]);
-                    pw.print(", ");
-                    pw.print(shoes[1]);
-                    pw.print(", ");
-                    pw.println(shoes[2]);
+                    pw.println(shoes[0] + ", " + shoes[1] + ", " + shoes[2]);
                 }
             }
             pw.close();
