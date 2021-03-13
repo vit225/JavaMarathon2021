@@ -13,7 +13,6 @@ public class Task2 {
             PrintWriter pw2 = new PrintWriter("file2.txt");
             Random random = new Random();
             for (int i = 0; i < 1000; i++) {
-                random.nextInt(100);
                 pw.print(random.nextInt(100) + " ");
             }
             pw.close();
