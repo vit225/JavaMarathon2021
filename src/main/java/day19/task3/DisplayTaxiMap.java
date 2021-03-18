@@ -1,4 +1,4 @@
-package main.java.day19.task3;
+package day19.task3;
 
 import javafx.application.Application;
 import javafx.scene.Group;
