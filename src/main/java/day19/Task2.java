@@ -20,8 +20,8 @@ public class Task2 {
                 set.add(Integer.parseInt(scanner.nextLine()));
             }
             int count = 0;
-            for (Integer number : set) {
-                if (number >= 500000000 && number <= 600000000)
+            for (int i = 500000000; i <= 600000000; i++) {
+                if (set.contains(i))
                     count++;
             }
             System.out.println(count);

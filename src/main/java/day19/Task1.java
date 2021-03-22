@@ -16,7 +16,7 @@ public class Task1 {
             Map<String, Integer> words = new HashMap<>();
             List<String> strings = new ArrayList<>();
             while (scanner.hasNext()) {
-                strings.add(scanner.next());
+                strings.add(scanner.next().toLowerCase());
             }
 
             for (String string : strings) {
